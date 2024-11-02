@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "Calculator.cpp"
 
 using namespace std;
 
@@ -34,27 +35,6 @@ int main()
 		exit(1);
 	}
 
-	// execute appropriate calc function
-	switch (op)
-	{
-		case '+':
-
-			break;
-
-		case '-':
-
-			break;
-
-		case '*':
-
-			break;
-
-		case '/':
-
-			break;
-
-		default:
-			cout << "\nError: Invalid operator" << endl;
-			exit(1);
-	}
+	Calculator calc(num1, op, num2);
+	calc.printResult();
 }
