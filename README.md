@@ -1,2 +1,4 @@
 # git-demo
-Demonstration of the features explained in the Git tutorial video.
+
+A simple calculator app to demonstrate the features explained in the Git tutorial video.
+
