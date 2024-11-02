@@ -31,7 +31,7 @@ int main()
 		num2 = stod(input_str.substr(op_pos + 1));
 	}
 	catch(exception e) {
-		cout << "\nError: Invalid input" << endl;
+		cout << "\nError: Invalid input number(s)" << endl;
 		exit(1);
 	}
 
